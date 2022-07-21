@@ -1,0 +1,152 @@
+.body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+ 
+
+}
+
+
+.top-banner{
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 35px 60px;
+ 
+}
+.top-headline{
+  color: white;
+  width: 50%;
+  text-align: center;
+  margin-top: 50px;
+ 
+  
+}
+@keyframes up-down {
+  from{
+    background-color: rgb(8, 100, 126);
+    left: 0;
+  }
+  to{
+    background-color: orangered;
+    left: 0px;
+    
+  }
+
+}
+
+
+.Live{
+  text-decoration: none;
+  background-color: rgb(221, 40, 8);
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 5px; 
+  animation: up-down 2s 0.5s infinite alternate;
+  animation-play-state: running;
+
+}
+
+
+.top-image{
+  margin-left: 50px;
+}
+
+main{
+  width: 800px;
+  margin-bottom: 60px;
+  
+}
+.blogs{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 60px;
+}
+
+
+.blogs .right-container{
+  display: flex;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.blogs .right-container p{
+  margin: 10px 20px;
+  align-items: center;
+}
+
+.blog{
+  height: 115px;
+  background-color: black;
+  padding: 15px;
+  border-radius: 10px;
+  
+}
+
+.main-btn{
+  width: 120px;
+  margin-bottom: 10px;
+  padding: 5px;
+
+}
+.main-btn-btn{
+  width: 120px;
+  background-color: orangered;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.right-container .player-card{
+  width: 300px;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  
+}
+
+
+.btn-transfer{
+  margin: 10px 20px;
+}
+.player-card .flag{
+  display: flex;
+}
+
+footer{
+  background-color: black;
+}
+.footer-head{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.setting-menu ul{
+  display: flex;
+  justify-content: center;
+}
+.setting{
+  list-style: none;
+  margin-right: 20px;
+}
+
+.setting a{
+  text-decoration: none;
+  color: rgb(189, 177, 177);
+
+}
+
+.social-media{ 
+  padding: 30px;
+ text-align: center;
+}
